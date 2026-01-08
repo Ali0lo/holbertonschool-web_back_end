@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""12-log_stats.py
+Module that provides statistics about the nginx logs in MongoDB
+"""
+
 from pymongo import MongoClient
 
 # Connect to MongoDB
