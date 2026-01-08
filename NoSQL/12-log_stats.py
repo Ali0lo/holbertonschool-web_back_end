@@ -21,9 +21,7 @@ def main():
         print(f"\tmethod {method}: {count}")
 
     # Status check
-    status_check = nginx_collection.count_documents(
-        {"method": "GET", "path": "/status"}
-    )
+    status_check = nginx_collection.count_documents({"method": "GET", "path": "/status"})
     print(f"{status_check} status check")
 
 
