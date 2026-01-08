@@ -9,3 +9,15 @@ def update_topics(mongo_collection, name, topics):
         {"name": name},
         {"\$set": {"topics": list(topics)}}
     )
+"""
+"""
+
+def update_topics(mongo_collection, name, topics):
+    """
+    Changes all topics of a school document based on the name
+        mongo_collection: pymongo collection object
+        name (string): the school name to update
+    """
+    mongo_collection. update_many(
+        {"name": name},
+    )

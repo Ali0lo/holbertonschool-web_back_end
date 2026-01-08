@@ -1,0 +1,7 @@
+#!/usr/bin/env python3 py
+Module for updating topics of a school document py
+ py
+     py
+    Args: py
+        topics (list of strings): list of topics approached in the school py
+        {"$set": {"topics": topics}} py
