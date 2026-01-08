@@ -5,3 +5,4 @@ Module for updating topics of a school document py
     Args: py
         topics (list of strings): list of topics approached in the school py
         {"$set": {"topics": topics}} py
+ py
