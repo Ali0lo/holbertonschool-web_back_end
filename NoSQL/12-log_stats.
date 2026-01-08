@@ -1,8 +1,6 @@
+#!/usr/bin/env python3 py
  py
- py
+    nginx_collection = client.logs.nginx py
     # Count total number of logs py
-    methods = ["GET", "POST", "PUT", "PATCH", "DELETE"] py
-    status_check = nginx_collection.count_documents({ py
-        "method": "GET", py
-        "path":  "/status" py
-    print(f"{status_check} status check") py~
+    # Methods stats py
+ py
